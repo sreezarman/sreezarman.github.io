@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X } from "lucide-react"
+import { Linkedin, Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { getNavItems, getPersonalInfo } from "@/lib/data"
 import { Button } from "@/components/ui/button"
@@ -108,6 +108,18 @@ export function PortfolioHeader() {
             className="bg-gradient-to-r from-cyan-500/20 to-blue-500/20 border-cyan-500/50 hover:bg-gradient-to-r hover:from-cyan-500/30 hover:to-blue-500/30"
           >
             <a href="mailto:sreezarman@gmail.com">Get in Touch</a>
+          </Button>
+
+          <Button
+            asChild
+            variant="outline"
+            size="sm"
+            className="border-zinc-700 hover:border-cyan-500/50 hover:bg-zinc-800"
+          >
+            <a href="https://www.linkedin.com/in/arman01/" target="_blank" rel="noopener noreferrer">
+              <Linkedin className="w-4 h-4" />
+              Linkedin
+            </a>
           </Button>
         </div>
 

@@ -21,6 +21,11 @@
         "platform": "Phone",
         "url": "tel:+8801830317094",
         "icon": "Phone"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/arman01/",
+        "icon": "Linkedin"
       }
     ]
   },
