@@ -11,30 +11,30 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://sreezarman.github.io"),
-  title: "Arman Ali | Growth Marketer Portfolio",
+  title: "Arman Ali | Paid Media Specialist",
   description:
-    "Growth marketer skilled in paid media, attribution, SEO, and automation. Explore high-impact case studies and proven results.",
+    "Paid media specialist for e-commerce brands: Google Ads, Shopping, PMax & Meta. 9+ years, $60M+ annual ad spend, and hands-on GA4/GTM conversion tracking.",
   icons: {
     icon: "/arman-profile.jpeg",
   },
   openGraph: {
-    title: "Arman Ali | Growth Marketer Portfolio",
+    title: "Arman Ali | Paid Media Specialist",
     description:
-      "Growth marketer skilled in paid media, attribution, SEO, and automation. Explore high-impact case studies and proven results.",
+      "Paid media specialist for e-commerce brands: Google Ads, Shopping, PMax & Meta. 9+ years, $60M+ annual ad spend, and hands-on GA4/GTM conversion tracking.",
     images: [
       {
         url: "/arman-profile.jpeg",
         width: 1200,
         height: 630,
-        alt: "Arman Ali - Growth Marketer",
+        alt: "Arman Ali - Paid Media Specialist",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Arman Ali | Growth Marketer Portfolio",
+    title: "Arman Ali | Paid Media Specialist",
     description:
-      "Growth marketer skilled in paid media, attribution, SEO, and automation. Explore high-impact case studies and proven results.",
+      "Paid media specialist for e-commerce brands: Google Ads, Shopping, PMax & Meta. 9+ years, $60M+ annual ad spend, and hands-on GA4/GTM conversion tracking.",
     images: ["/arman-profile.jpeg"],
     creator: "@armanali",
   },
